@@ -1,6 +1,6 @@
 ---
 layout: categories
-title: Reading
+title: Readings
 icon: fas fa-book
 order: 5
 ---
