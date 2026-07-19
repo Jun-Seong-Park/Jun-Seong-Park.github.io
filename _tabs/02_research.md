@@ -2,5 +2,5 @@
 layout: categories
 title: Research
 icon: fas fa-flask
-order: 7
+order: 3
 ---
