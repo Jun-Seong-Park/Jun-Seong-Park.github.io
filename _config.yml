@@ -180,6 +180,18 @@ collections:
   tabs:
     output: true
     sort_by: order
+  Readings:
+    output: true
+    permalink: /readings/:name/
+  Research:
+    output: true
+    permalink: /research/:name/
+  Papers:
+    output: true
+    permalink: /papers/:name/
+  Projects:
+    output: true
+    permalink: /projects/:name/
 
 defaults:
   - scope:
@@ -192,6 +204,34 @@ defaults:
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
+  - scope:
+      path: ""
+      type: Readings
+    values:
+      layout: post
+      comments: true
+      toc: true
+  - scope:
+      path: ""
+      type: Research
+    values:
+      layout: post
+      comments: true
+      toc: true
+  - scope:
+      path: ""
+      type: Papers
+    values:
+      layout: post
+      comments: true
+      toc: true
+  - scope:
+      path: ""
+      type: Projects
+    values:
+      layout: post
+      comments: true
+      toc: true
   - scope:
       path: _drafts
     values:
